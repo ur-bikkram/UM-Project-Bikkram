@@ -1,0 +1,42 @@
+{
+  "total_users": 3000,
+  "total_courses": 60,
+  "total_transactions": 10000,
+  "unique_enrolled_users": 3000,
+  "unique_enrolled_courses": 60,
+  "orphan_user_transactions": 0,
+  "orphan_course_transactions": 0,
+  "duplicate_transaction_ids": 0,
+  "duplicate_user_course_enrollments": 0,
+  "null_counts": {
+    "users": {
+      "UserID": 0,
+      "UserName": 0,
+      "Age": 0,
+      "Gender": 0,
+      "Email": 0
+    },
+    "courses": {
+      "CourseID": 0,
+      "CourseName": 0,
+      "CourseCategory": 0,
+      "CourseType": 0,
+      "CourseLevel": 0,
+      "CoursePrice": 0,
+      "CourseDuration": 0,
+      "CourseRating": 0
+    },
+    "transactions": {
+      "TransactionID": 0,
+      "UserID": 0,
+      "CourseID": 0,
+      "TransactionDate": 0,
+      "Amount": 0,
+      "PaymentMethod": 0,
+      "TeacherID": 0
+    }
+  },
+  "invalid_age_count": 0,
+  "invalid_gender_count": 0,
+  "integrity_status": "PASS"
+}
